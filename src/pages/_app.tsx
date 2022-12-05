@@ -1,4 +1,5 @@
 import type { AppProps } from 'next/app'
+import Link from 'next/link'
 
 import { globalStyles } from '../styles/global'
 import { Header, Footer } from '../styles/pages/app'
@@ -12,7 +13,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <span>Event</span>
         
         <div>
-          <a href="/criarevento">Criar evento</a>
+          <Link href="/criarevento">Criar evento</Link>
         </div>
       </Header>
       <Component {...pageProps} />
