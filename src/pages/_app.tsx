@@ -12,7 +12,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <span>Event</span>
         
         <div>
-          <a href="/criareventos">Criar evento</a>
+          <a href="/criarevento">Criar evento</a>
         </div>
       </Header>
       <Component {...pageProps} />
